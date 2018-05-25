@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The Queer Off",
-    "currentPage": "page1.html",
+    "currentPage": "thanks.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -923,10 +923,10 @@
         }
       ]
     },
-    "page1.html": {
+    "thanks.html": {
       "settings": {
-        "meta_descr": "Web Page Generator Description",
-        "title": "thanks",
+        "meta_descr": "Application Sent!",
+        "title": "Application Sent!",
         "order": 1
       },
       "components": [
