@@ -2433,15 +2433,6 @@ body {
 .cid-qSSo41gdIG .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-qT31EbGAqi {
-  padding-top: 105px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/normal-2-2000x1125.png");
-}
-.cid-qT31EbGAqi .mbr-text,
-.cid-qT31EbGAqi .mbr-section-btn {
-  text-align: left;
-}
 .cid-qT31EuGPIt {
   padding-top: 90px;
   padding-bottom: 15px;
@@ -2531,6 +2522,15 @@ body {
 }
 .cid-qT31EuGPIt H2 {
   color: #ffffff;
+}
+.cid-qT31EbGAqi {
+  padding-top: 105px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/normal-2-2000x1125.png");
+}
+.cid-qT31EbGAqi .mbr-text,
+.cid-qT31EbGAqi .mbr-section-btn {
+  text-align: left;
 }
 .cid-qT31F7BTbL {
   padding-top: 60px;
