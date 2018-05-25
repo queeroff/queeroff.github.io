@@ -1758,16 +1758,28 @@ body {
   padding-bottom: 120px;
   background-image: url("../../../assets/images/normal-7-2000x1125.png");
 }
+.cid-qT1Ufv0KqC .mbr-text,
+.cid-qT1Ufv0KqC .mbr-section-btn {
+  text-align: left;
+}
 .cid-qT1SOQjdbz {
   background-image: url("../../../assets/images/normal-2-2000x1125.png");
 }
 .cid-qT1TTVzuDx {
   background-image: url("../../../assets/images/normal-2-2000x1125.png");
 }
+.cid-qT1TTVzuDx .mbr-text,
+.cid-qT1TTVzuDx .mbr-section-btn {
+  text-align: left;
+}
 .cid-qT2zcx0xKA {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/normal-2-2000x1125.png");
+}
+.cid-qT2zcx0xKA .mbr-text,
+.cid-qT2zcx0xKA .mbr-section-btn {
+  text-align: left;
 }
 .cid-qSU7gxRdPZ {
   padding-top: 60px;
