@@ -1373,13 +1373,13 @@ body {
   display: none;
 }
 .cid-qSSo41gdIG .navbar {
-  background: #00f0dc;
+  background: #ff3366;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-qSSo41gdIG .navbar-dropdown.bg-color.transparent.opened {
-  background: #00f0dc;
+  background: #ff3366;
 }
 .cid-qSSo41gdIG a {
   font-style: normal;
@@ -1463,7 +1463,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qSSo41gdIG .dropdown .dropdown-menu {
-  background: #00f0dc;
+  background: #ff3366;
   display: none;
   position: absolute;
   min-width: 5rem;
