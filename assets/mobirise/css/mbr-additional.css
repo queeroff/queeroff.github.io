@@ -1753,28 +1753,16 @@ body {
 .cid-qSSo41gdIG .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-qT1zvhkAyF {
-  padding-top: 135px;
-  padding-bottom: 135px;
-  background-image: url("../../../assets/images/websiteheader-2-2000x1125.png");
-}
-.cid-qSU2W9WEKR {
+.cid-qT1Ufv0KqC {
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/normal-5-2000x1125.png");
+}
+.cid-qT1SOQjdbz {
   background-image: url("../../../assets/images/normal-2-2000x1125.png");
 }
-.cid-qSU2W9WEKR .main {
-  flex-direction: row-reverse;
-}
-.cid-qSU2W9WEKR .main .mbr-section-btn {
-  text-align: right;
-}
-.cid-qSU2W9WEKR .btn {
-  margin: 0 0 .5rem 0;
-}
-.cid-qSU2W9WEKR H3 {
-  text-align: right;
-  color: #ffffff;
+.cid-qT1TTVzuDx {
+  background-image: url("../../../assets/images/normal-2-2000x1125.png");
 }
 .cid-qSU7gxRdPZ {
   padding-top: 60px;
@@ -1823,7 +1811,7 @@ body {
 .cid-qSU9luOxFO {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #f9f9f9;
+  background-color: #f7ed4a;
 }
 .cid-qSU9luOxFO .mbr-section-subtitle {
   color: #767676;
@@ -1855,7 +1843,7 @@ body {
   font-size: 17px;
 }
 .cid-qSU9luOxFO .team-item .item-caption {
-  background: #efefef;
+  background: #00f0dc;
 }
 .cid-qSU2H7d2MN {
   padding-top: 90px;
