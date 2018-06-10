@@ -1,12 +1,4 @@
-html, body {
-	padding: 0;
-  background: #222;
-	color: #FFF;
-	text-align: center;
-	font-family: sans-serif;
-	max-width: 500px;
-	margin: auto;
-}
+
 video {
 	display: block;
 	background: black;
