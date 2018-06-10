@@ -1753,28 +1753,6 @@ body {
 .cid-qSSo41gdIG .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-qUwVbg3u91 {
-  padding-top: 105px;
-  padding-bottom: 30px;
-  background: #ff3366;
-  background: linear-gradient(0deg, #ec3f98, #ff3366);
-}
-.cid-qUwVbg3u91 .image-block {
-  margin: auto;
-}
-.cid-qUwVbg3u91 figcaption {
-  position: relative;
-}
-.cid-qUwVbg3u91 figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-qUwVbg3u91 .image-block {
-    width: 100% !important;
-  }
-}
 .cid-qUwSkmoE0q {
   background: #ec3f98;
 }
@@ -1788,6 +1766,8 @@ body {
   }
 }
 .cid-qT1SOQjdbz {
+  padding-top: 60px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/normal-2-2000x1125.png");
 }
 .cid-qT1TTVzuDx {
