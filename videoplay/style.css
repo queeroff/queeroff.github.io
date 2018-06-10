@@ -17,8 +17,3 @@ video {
 .fullscreen {
 	float: right;
 }
-h2 span {
-	display: block;
-	font-size: 12px;
-	font-weight: normal;
-}
