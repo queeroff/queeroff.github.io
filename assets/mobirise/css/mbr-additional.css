@@ -1754,11 +1754,12 @@ body {
   color: #767676 !important;
 }
 .cid-qUwSkmoE0q {
+  padding-top: 105px;
+  padding-bottom: 60px;
   background: #ec3f98;
 }
 .cid-qUwSkmoE0q .video-block {
   margin: auto;
-  width: 100% !important;
 }
 @media (max-width: 768px) {
   .cid-qUwSkmoE0q .video-block {
