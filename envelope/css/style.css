@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+html,
+body {
+  background-color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#envelope {
+  position: relative;
+  margin: 5em auto;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 1.4em 2em 1.4em 2em;
+  border-color: #f0f0f0 #d5d5d5 #c6c6c6 #c6c6c6;
+  -webkit-box-shadow: 0 5px 5px -5px #262626;
+  -moz-box-shadow: 0 5px 5px -5px #262626;
+  box-shadow: 0 5px 5px -5px #262626;
+  cursor: pointer;
+}
+
+#envelope:hover {
+  border-color: #f0f0f0 hotpink deeppink deeppink;
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+#envelope-up {
+  position: absolute;
+  bottom: 1.39em;
+  left: -2em;
+  height: 0;
+  width: 0 ;
+  border-style: solid;
+  border-width: 1.4em 2em 1.4em 2em;
+  border-color: transparent transparent #f0f0f0 transparent;
+}
+
+#envelope:hover > #envelope-up {
+  border-color: transparent transparent #f0f0f0 transparent;
+}
+
+#card {
+  position: absolute;
+  padding: 2em;
+  top: -11.25em;
+  left: -20.25em;
+  width: 600px;
+  height: 900px;
+  background-color: #eb3f96;
+  border-radius: .25em;
+  -webkit-box-shadow: 0 0 2px 2px rgba(38, 38, 38, 0.2);
+  -moz-box-shadow: 0 0 2px 2px rgba(38, 38, 38, 0.2);
+  box-shadow: 0 0 2px 2px rgba(38, 38, 38, 0.2);
+  display: none;
+  cursor: default;
+}
+
+#close {
+  position: absolute;
+  top: .1em;
+  right: .1em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1em;
+  border-color: #d5d5d5 #bdbdbd transparent transparent;
+  cursor: pointer;
+}
+
+#close:hover {
+  border-color: deeppink hotpink transparent transparent;
+  border-width: 1.2em;
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+h1 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+input,
+textarea {
+  margin: .5em 1em .5em 0;
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+  padding: .3em;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: .2em solid #989898;
+  background-color: transparent;
+}
+
+textarea {
+  height: 30%;
+}
+
+input:focus,
+textarea:focus {
+  border-left: .2em solid deeppink;
+  padding-left: .5em;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: deeppink;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: deeppink;
+}
+
+input:focus:-ms-input-placeholder:focus,
+textarea:focus:-ms-input-placeholder {
+  color: deeppink;
+}
+
+#mailit {
+  position: relative;
+  left: 50%;
+  margin-left: -2.5em;
+  padding: .1em .2em 0 .2em;
+  width: 5em;
+  height: 2.5em;
+  border: .2em solid deeppink;
+  background-color: transparent;
+  font-weight: bold;
+  color: deeppink;
+}
+
+#mailit:hover {
+  background-color: deeppink;
+  color: white;
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+.flip {
+  animation: flip .5s cubic-bezier(.68, 0, .27, 1) forwards;
+}
+
+.flip-back {
+  animation: flip-back .5s cubic-bezier(.68, 0, .27, 1) forwards;
+}
+
+.send {
+  animation: send .75s cubic-bezier(.68, 0, .27, 1) forwards;
+}
+
+.pulse {
+  animation: pulse 3s infinite;
+  -webkit-animation: pulse 3s infinite;
+  -moz-animation: pulse 3s infinite;
+}
+
+@keyframes flip {
+  100% {
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+}
+
+@-webkit-keyframes flip {
+  100% {
+    -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+}
+
+@-moz-keyframes flip {
+  100% {
+    -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+}
+
+@keyframes flip-back {
+  0% {
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+  100% {
+    transform: rotateX(-180deg) rotateY(-180deg) rotateZ(-180deg);
+    ;
+    border-color: #f0f0f0 #d5d5d5 #c6c6c6 #c6c6c6;
+    border-width: 1.4em 2em 1.4em 2em;
+  }
+}
+
+@-webkit-keyframes flip-back {
+  0% {
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg) rotateY(-180deg) rotateZ(-180deg);
+    ;
+    border-color: #f0f0f0 #d5d5d5 #c6c6c6 #c6c6c6;
+    border-width: 1.4em 2em 1.4em 2em;
+  }
+}
+
+@-moz-keyframes flip-back {
+  0% {
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+  100% {
+    -moz-transform: rotateX(-180deg) rotateY(-180deg) rotateZ(-180deg);
+    ;
+    border-color: #f0f0f0 #d5d5d5 #c6c6c6 #c6c6c6;
+    border-width: 1.4em 2em 1.4em 2em;
+  }
+}
+
+@keyframes send {
+  0% {
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+  100% {
+    transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    border-color: #f0f0f0 #d5d5d5 #c6c6c6 #c6c6c6;
+    border-width: 0;
+  }
+}
+
+@-webkit-keyframes send {
+  0% {
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+  100% {
+    -webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    border-color: #f0f0f0 #d5d5d5 #c6c6c6 #c6c6c6;
+    border-width: 0;
+  }
+}
+
+@-moz-keyframes send {
+  0% {
+    border-color: whitesmoke;
+    border-width: 11em 8em 11em 8em;
+  }
+  100% {
+    -moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    border-color: #f0f0f0 #d5d5d5 #c6c6c6 #c6c6c6;
+    border-width: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(.8);
+    opacity: .8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(.8);
+    opacity: .8;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    -moz-transform: scale(.8);
+    opacity: .8;
+  }
+  100% {
+    -moz-transform: scale(1);
+    opacity: 1;
+  }
+}
