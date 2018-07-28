@@ -121,7 +121,7 @@
                             .YTPlayer({
                                 videoURL: videoId,
                                 containment: 'self',
-                                showControls: true,
+                                showControls: false,
                                 mute: true
                             });
 
@@ -146,7 +146,7 @@
                             .vimeo_player({
                                 videoURL: videoId,
                                 containment: 'self',
-                                showControls: true,
+                                showControls: false,
                                 mute: true
                             });
 
